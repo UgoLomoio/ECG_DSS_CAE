@@ -33,7 +33,7 @@ Utility libraries
 """
 from EcgStuffs.src.dpnet import dpnet_loader                        #load the model
 from EcgStuffs.src.windows.WindowingUtils import sliding_window     #extract windows from a signal
-from EcgStuffs.src.pickleio.PickleIO import load_object             #load .data files 
+#from EcgStuffs.src.pickleio.PickleIO import load_object             #load .data files 
 import neurokit2 as nk                                              #extract r peaks from signal
 import csv                                                          #load .csv files 
 import os                                                                                   

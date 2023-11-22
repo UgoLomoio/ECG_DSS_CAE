@@ -12,13 +12,37 @@ CAE trained on syntheticand real ECG signals from the PTB Diagnostic ECG databas
 Dataset used:
 PTB Diagnostic ECG database 1.0: https://www.physionet.org/content/ptbdb/1.0.0/
 
-Installation requires the anaconda software.
-For the installation use given setup files. 
+HOW TO INSTALL
 
-HOW TO USE:
+1. Installation requires the anaconda software. 
 
-conda activate ECGDSS
-python ecg_gui_main.py
+2. After the installation of anaconda python, open the command prompt and use one of the given setup files (depending on your operative system) to automatically install python libraries. 
+
+	On Windows:
+
+		setupWindows.bat
+
+	One Linux or Mac: 
+		
+		setupLinuxMac.sh
+		
+	If you are using a Linux or Mac system, you may need to change the permissions of the setupLinuxMac.sh file. To do so, open the command prompt and type: 
+		chmod +x setupLinuxMac.sh
+
+	If the installation is successful, you should see a new conda environment called ECG_DSS in your anaconda navigator.
+
+	If an error occours during the installation, try to open the setup file with a text editor and install the libraries manually using the command prompt.
+
+HOW TO USE
+
+1. After the installation, open the command prompt and type: 
+
+		conda activate ECG_DSS
+
+2. Then, type: 
+	
+		python ecg_gui_main.py
+
+Cite this work:
 
 
-WORK IN PROGRESS...
