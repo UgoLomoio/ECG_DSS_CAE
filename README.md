@@ -6,7 +6,7 @@ CAE trained on synthetic and real ECG signals from the PTB Diagnostic ECG databa
 Model available:
 - pretrained model using only synthetic ECGs: DpNet.dill/DPNet_cpu.dill
 - pretrained model finetuned using real ECG data from PTB: model.pt -> TESTED ON PTB 
-- pretrained model finetuned using real ECG data from PTB-XL: model.pt -> TESTED ON CPSC2018
+- pretrained model finetuned using real ECG data from PTB-XL: model_ptbxl2.pt -> TESTED ON CPSC2018
 
 Data availability:
 
