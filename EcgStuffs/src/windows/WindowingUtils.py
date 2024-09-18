@@ -30,6 +30,7 @@ def sliding_window(signal, size, stride=0x1):
     win_num = math.ceil((sig_len - size) / stride)
     add_last = sig_len % win_num != 0x0
     for i in range(win_num):
+        print(i+1, "/", win_num, end="\r")
         offset = i * stride
         windows.append((signal[:, offset : offset + size]))
     if add_last:

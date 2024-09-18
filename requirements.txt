@@ -1,0 +1,12 @@
+plotly 
+neurokit2
+dash
+scipy
+scikit-learn
+dill
+ipywidgets>=7.0.0
+wfdb
+pandas
+pytorch-lightning==2.1
+seaborn
+umap-learn
