@@ -37,4 +37,16 @@ HOW TO USE
 
 Cite this work:
 
+@article{LOMOIO2025e41517,
+title = {A Convolutional Autoencoder Framework for ECG signal Analysis},
+journal = {Heliyon},
+pages = {e41517},
+year = {2025},
+issn = {2405-8440},
+doi = {https://doi.org/10.1016/j.heliyon.2024.e41517},
+url = {https://www.sciencedirect.com/science/article/pii/S2405844024175482},
+author = {Ugo Lomoio and Patrizia Vizza and Raffaele Giancotti and Salvatore Petrolo and Sergio Flesca and Fabiola Boccuto and Pietro Hiram Guzzi and Pierangelo Veltri and Giuseppe Tradigo},
+keywords = {ECG, anomaly detection, signal annotation, autoencoder, decision support systems},
+}
+
 
